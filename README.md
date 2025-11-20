@@ -4,23 +4,21 @@
 
 ## 🖼️ Dashboard Preview
 ![Overview](https://github.com/aniketpatil0810/Uber_Dashboard/blob/main/Project_Snapshots/OverView_Of_Uber%20_Trip_Dash.png)
+
+---
+![Time_Analysis](https://github.com/aniketpatil0810/Uber_Dashboard/blob/main/Project_Snapshots/Time_Analysis_Of_Dash.png)
+
+---
 ![Detail_Analysis](https://github.com/aniketpatil0810/Uber_Dashboard/blob/main/Project_Snapshots/Detail_Analysis_Of_Dash.png)
-![Time_Analysis]()
----
-
-# 1. Project Title
-
-### 🚕 Uber Trip Analysis – Power BI Dashboard
 
 ---
-
 # 2. Project Description
 
-The **Uber Trip Analysis Dashboard** is an interactive Power BI project designed to analyze ride patterns, trip demand, and user behavior across different time periods and locations.
+- The **Uber Trip Analysis Dashboard** is an interactive Power BI project designed to analyze ride patterns, trip demand, and user behavior across different time periods and locations.
 
-This project transforms raw Uber trip data into meaningful insights by exploring key metrics such as **trip volume**, **ride duration**, **distance patterns**, **peak hours**, and **popular pickup/drop-off locations**.
+- This project transforms raw Uber trip data into meaningful insights by exploring key metrics such as **trip volume**, **ride duration**, **distance patterns**, **peak hours**, and **popular pickup/drop-off locations**.
 
-The dashboard helps users understand how Uber rides fluctuate by **time of day**, **day of the week**, and **seasonal trends**, enabling data-driven decisions for **operations planning**, **driver allocation**, and **customer demand forecasting**.
+- The dashboard helps users understand how Uber rides fluctuate by **time of day**, **day of the week**, and **seasonal trends**, enabling data-driven decisions for **operations planning**, **driver allocation**, and **customer demand forecasting**.
 
 ---
 
@@ -52,7 +50,7 @@ The dashboard helps users understand how Uber rides fluctuate by **time of day**
 
 ---
 
-# 5. Key Features
+## 5. Key Features
 
 * 🚕 **Trip Volume Analysis** across multiple time granularities
 * 🕒 **Peak Hour & Day Insights** for traffic and demand prediction
@@ -79,70 +77,9 @@ The dashboard helps users understand how Uber rides fluctuate by **time of day**
 
 ---
 
-# 7. 📂 Project Structure
-
-```
-📁 Uber Trip Analysis Dashboard
-│
-├── 📄 README.md                       # Full project documentation
-├── 📊 Uber_Trip_Analysis.pbit          # Power BI dashboard template file
-│
-├── 📁 Data/                            # Raw Uber dataset (Optional)
-│     └── uber_trips.csv
-│
-├── 📁 Images/                          # Dashboard screenshots
-│     └── Uber_Dashboard.png
-│
-├── 📁 DAX_Measures/                    # Exported DAX formulas
-│     └── measures.txt
-│
-└── 📁 Reports/                         # Summary or PDF files (Optional)
-      └── Uber_Trip_Summary.pdf
-```
-
----
-
-# 8. Example DAX Measures
-
-```
-Total Trips = COUNTROWS(Trips)
-
-Avg Trip Distance = AVERAGE(Trips[Distance])
-
-Avg Trip Duration = AVERAGE(Trips[Duration])
-
-Peak Hour Trips =
-CALCULATE(
-    [Total Trips],
-    ALLEXCEPT(Trips, Trips[Hour])
-)
-```
-
----
-
-# 9. How to Use
-
-1. Download the `.pbit` file.
-2. Open it in **Power BI Desktop**.
-3. Load or connect your dataset when prompted.
-4. Refresh data.
-5. Explore insights using filters and visuals.
-
----
-
 # 🏁 Conclusion
 
 The **Uber Trip Analysis Dashboard** converts raw ride data into actionable insights for understanding user demand, identifying peak ride timings, analyzing travel distances, and optimizing operational performance. This dashboard serves as a valuable analytical tool for business decision-making.
 
 ---
 
-# 🙌 Author
-
-**Aniket Patil**
-
-* GitHub: [https://github.com/](https://github.com/)<your-username>
-* Email: [your-email@example.com](mailto:your-email@example.com)
-
----
-
-*Tell me if you'd like badges, a project banner, or a LinkedIn post description added!*
