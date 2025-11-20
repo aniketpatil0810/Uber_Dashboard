@@ -4,7 +4,8 @@
 
 ## 🖼️ Dashboard Preview
 ![Overview](https://github.com/aniketpatil0810/Uber_Dashboard/blob/main/Project_Snapshots/OverView_Of_Uber%20_Trip_Dash.png)
-![Detail_Analysis](
+![Detail_Analysis](https://github.com/aniketpatil0810/Uber_Dashboard/blob/main/Project_Snapshots/Detail_Analysis_Of_Dash.png)
+![Time_Analysis]()
 ---
 
 # 1. Project Title
